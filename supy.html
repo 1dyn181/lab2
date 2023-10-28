@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1342px, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Супы</title>
+</head>
+<body>
+    <div class="header">
+        <script src=""></script>
+        <a href="firstpage.html"><img src="headerLogo.png" alt="vilka" style="width: 110px; margin-left: 80px; cursor: pointer;"></a>
+        <a href="#"><h1 class="glavtext">Доставка</h1></a>
+        <a href="menuvilka.html"><h1 class="glavtext1">Рестораны</h1></a>
+
+        <div style="margin-left: 710px; margin-top: -57px; margin-bottom: 100px;"><button id="kor" style="color: white; background-color: black; cursor: pointer; font-size: 20px;"><img src="https://icon-library.com/images/white-shopping-cart-icon-png/white-shopping-cart-icon-png-19.jpg" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">КОРЗИНА</button></div>
+        <div id="cart" class="cartwin">
+            <div id="x" style="cursor: pointer; color: white; margin-bottom: 10px;">X</div>
+            <div id="total" style="position: absolute; color: white; margin-top: -25px; margin-left: 130px;">0</div>
+            <div id="bf"><div id="title" style="color: white;"><div id="sum" style="color: white;"></div></div></div>
+        </div>
+
+        <h1 class="text">МЕНЮ ДОСТАВКИ - СУПЫ</h1><br><br>
+        <hr style="border: dashed 1px white;">
+        <div class="menu">
+            <a class="st" href="menu.html"><p class="st">Стейки</p></a>
+            <a class="st" href="burgers.html"><p class="st">Бургеры</p></a>
+            <a class="st" href="#"><p style="text-decoration: underline; color: orangered; font-weight: bold;" class="st">Супы</p></a>
+            <a class="st" href="salaty.html"><p class="st">Салаты</p></a>
+            <a class="st" href="garnir.html"><p class="st">Гарниры</p></a><br><br>
+        </div><br>
+        <hr style="border: dashed 1px white;">
+        <div class="zelen">
+            <br>
+            <p class="ztext">Актуальную карту и стоимость доставки можно посмотреть в нашем Инстаграм</p>
+            <p class="ztext">Доставка работает ежедневно:</p>
+            <p class="ztext">Понедельник - четверг: с 11:00 до 23:30</p>
+            <p class="ztext">Пятница - суббота: с 11:00 до 00:30</p>
+            <p class="ztext">Воскресенье с 12:00 до 23:30</p>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="basket">
+            <img src="https://vilka.kz/storage/products/164/original/index.jpg" alt="ERROR" width="270px" height="240px" style="margin-left: 40px; margin-top: 15px; margin-bottom: 10px;">
+            <div id="item1" class="name">Хоспер Солянка</div>
+            <div class="description">Приготовленная по традиционному рецепту с копченостями, рубленным мясом говядины. Подается с лимоном, сметаной, оливками и укропом.</div><br><hr style="border: dashed 1px white;">
+            <div class="money">1500 ₸</div>
+            <button onclick="addcart(item1, 1500, 0)" class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
+        </div>
+
+        <div class="basket">
+            <img src="https://vilka.kz/storage/products/181/original/index.png" alt="ERROR" width="270px" height="240px" style="margin-left: 40px; margin-top: 15px; margin-bottom: 10px;">
+            <div id="item2" class="name">Суп лапша</div>
+            <div class="description">Домашняя лапша собственного приготовления, курочка, куриный бульон, перепелиное яйцо.</div><br><hr style="border: dashed 1px white;">
+            <div class="money">800 ₸</div>
+            <button onclick="addcart(item2, 800, 0)" class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
+        </div>
+    </div>
+
+    <div style="border: dashed 2px white; width: 500px; height: 350px; border-radius: 15px; margin-left: 120px; margin-top: 40px; margin-bottom: 10px;">
+        <h1 style="color: white; font-size: 25px; margin-left: 25px; margin-top: 15px;">ДОСТАВКА<hr style="width: 150px; margin-left: 2px;"></h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px; margin-top: -10px;">Доставка осуществляется нашими курьерами.</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px;">Стоимость доставки: 600 тг.</h1><br>
+        <a href="https://yandex.kz/web-maps/162/almaty/?l=trf%2Ctrfe&ll=76.954974%2C43.222524&mode=usermaps&source=constructorLink&um=constructor%3Ad46c70407a505ce2c2c7f46f48e8052ce94e2d1787211d9ba6f01d785c919c00&z=14" style="color: white; margin-left: 25px; font-size: 20px; text-decoration: none">Квадраты доставки в г.Алматы<hr style="width: 270px; margin-left: 20px; margin-top: 2px; border: dashed 1px;"></a><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px;">Максимальное время доставки: 1 час</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px;">Способы оплаты: Kaspi qr, Наличные</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px;">Время работы доставки: c 11:00 до 23:59</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px;">Телефоны операторов: 8 707 339-40-49</h1>
+    </div>
+    <div style="border: dashed 2px white; width: 500px; height: 350px; border-radius: 15px; margin-left: 700px; margin-top: -365px; margin-bottom: 10px;">
+        <h1 style="color: white; font-size: 25px; margin-left: 25px; margin-top: 15px;">ПРИГОТОВЛЕНИЕ<hr style="width: 230px; margin-left: 2px;"></h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px; margin-top: -10px;">Все блюда для доставки готовятся в ресторанах Vilka.</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px; margin-top: -10px;">Мы разжигаем дровяные печи Josper, и готовим всё</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px; margin-top: -10px;">мясо в них.</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px; margin-top: -10px;">Сами выпекаем булочки для бургеров и контролируем</h1><br>
+        <h1 style="color: white; margin-left: 25px; font-size: 20px; margin-top: -10px;">качество ингредиентов.</h1><br>
+    </div>
+
+    <div style="background-color: black;">
+        <a class="ssylka" href="menu.html">МЕНЮ</a>
+        <a class="ssylka1" href="menuvilka.html">РЕСТОРАНЫ</a>
+        <hr style="margin-top: 120px; opacity: 0.5;">
+        <h1 class="endtext">ТОО "Vilka Steak & Burger"</h1>
+        <h1 class="endtext">Использование материалов разрешено только с позволения владельца</h1>
+    </div>
+    <script src="basket.js"></script>
+</body>
+</html>

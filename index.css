@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+min-width: 1342px;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.header{
+    justify-content: space-between;
+    background-image: url(mramor.jpg);
+    height: 100px;
+    width: 100%;
+}
+
+.glavtext{
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 310px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.glavtext1{
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 510px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.backr{
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    background-color: #130e0a;
+}
+
+.registration{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.regi{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.backr .registration input{
+    background-color: #130e0a;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    color: white;
+}
